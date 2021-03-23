@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+ 
+  padding: 0;
+  background: url(bgd.jpg);
+  color: #900c3f;
+  
+}
+.card
+{
+	width: 310px;
+	height: auto;
+	background-image: url(bd.jpg);
+	margin: 50px auto;
+	text-align: center;
+	padding: 20px;
+	border-radius: 5px;
+	   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .5);
+  color: #fff;
+}
+@media only screen and (max-width: 600px;) {
+  .card {font-size: 16px; padding: 8px 10px;}
+
+}
+
+.pic img
+{
+	border-radius: 50%;
+  border: 5px solid #fff;
+margin-bottom: 20px;
+margin-top: 20px;
+width: 150px;
+}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 400px;
+  position: relative;
+  margin: auto;
+  height: 100px;
+  margin-top: 40px;
+}
+
+/* Caption text */
+.text {
+  color: #fff;
+  font-size: 15px;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Snell Roundhand, cursive;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.icons
+{
+margin: 20px;
+}
